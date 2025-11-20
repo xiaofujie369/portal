@@ -1,0 +1,59 @@
+body {
+margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background: linear-gradient(135deg, #ffd1e8 0%, #ffe6f3 40%, #ffffff 100%);
+color: #444;
+}
+.hero {
+max-width: 960px;
+margin: 0 auto;
+padding: 40px 20px;
+text-align: center;
+}
+.logo {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+box-shadow: 0 4px 18px rgba(255, 120, 170, 0.4);
+margin-bottom: 18px;
+border: 3px solid #ffb3d9;
+}
+.title {
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 6px;
+background: linear-gradient(90deg, #ff6fa9, #ff9ccf);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.subtitle {
+font-size: 14px;
+opacity: 0.75;
+margin-bottom: 26px;
+}
+.link {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+margin: 20px auto 36px;
+}
+.btn {
+width: 90%;
+max-width: 300px;
+padding: 13px 20px;
+border-radius: 999px;
+background: linear-gradient(90deg, #ff7fb4, #ff9ece);
+color: white;
+text-decoration: none;
+text-align: center;
+font-size: 15px;
+font-weight: 600;
+box-shadow: 0 4px 14px rgba(255, 120, 170, 0.35);
+transition: 0.2s;
+}
+.btn:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 20px rgba(255, 120, 170, 0.45);
+}
